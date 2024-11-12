@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2D3E66;
+}
+body {
+    background-image: linear-gradient(#9fc2f0, rgb(95, 130, 142), #9fc2f0);
+}
+
+#clock {
+    font-size: 200px;
+    color: rgb(35, 36, 36);
+    width: 1000px;
+    margin: 200px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: relative;
+    right: 2%;
+}
+
+header {
+    position: relative;
+    width: 50%;
+    height: 75px;
+    left: 23%;
+    background-color: #7B9FCF;
+    border: 5px solid navy;
+    padding: 10px;
+    margin: 15px;
+}
+.head {
+    font-size: 15px ;
+
+}
+
+.bow1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -30px;
+    left: 3%;
+}
+.bow2 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -40px;
+    left: 82%;
+}
+
+nav {
+    position:relative;
+    background-color: #ADC4DD;
+    width: 75%;
+    height: 50px;
+    border : 3px dotted navy;
+    top: 17%;
+    left: 13%;
+}
+
+
+
+article {
+    width: 75%;
+    height: 250px;
+    background-color: #7392cf;
+    border: 3px solid navy;
+    position: relative;
+    top: 15px;
+}
+
+aside {
+    width: 40%;
+    height: 420px;
+    position: absolute;
+    left: 58%;
+    top: 235px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0px;
+    font-size: large;
+}
+
+.articles {
+    position: relative;
+    left: 30px;
+    top: 45px;
+    width: 65%;
+    height: 70%;
+    font-size: 20px;
+}
+
